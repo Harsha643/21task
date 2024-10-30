@@ -1,0 +1,21 @@
+.flex-container{
+    display: flex;
+    justify-content:space-between;
+    /* width: 500px; */
+    /* height: 500px; */
+    border: 2px solid;
+    flex-wrap: wrap;
+    align-items: start;
+}
+.flex-child{
+    flex: 3 1 150px;
+    background-color: aqua;
+}
+.flex-child1{
+    flex: 4 6 150px;
+    background-color: rgb(191, 255, 0);
+}
+.flex-child2{
+    flex: 2 1 150px;
+    background-color:red;
+}

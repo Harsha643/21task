@@ -1,0 +1,11 @@
+ .flex-container{
+    display: flex;
+    background-color: #ffff00;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .flex-child{
+    flex-basis:100px;
+    background-color: ghostwhite;
+ }

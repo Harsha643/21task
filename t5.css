@@ -1,0 +1,16 @@
+.flex-container{
+    width:300px ;
+    height: 200px;
+    display: flex;
+    border: 2px solid ;
+    justify-content: space-between;
+    align-items: start;
+
+}
+.flex-child1{
+align-self: center;
+
+}
+.flex-child2{
+    align-self:self-end;
+}

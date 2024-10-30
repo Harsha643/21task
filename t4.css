@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    width: 250px;
+    height: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    
+}
+.flex-child1{
+    order:5;
+    background-color: brown;
+    color: white;
+}
+.flex-child2{
+    order:4;
+    background-color: blue;
+    color: white;
+}
+
+.flex-child3{
+    order:1;
+    background-color: chartreuse;
+}
+
+.flex-child4{
+    order:2;
+    background-color: coral;
+}
+
+.flex-child5{
+    order:3;
+    background-color: darkkhaki;
+}
